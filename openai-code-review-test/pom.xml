@@ -21,7 +21,6 @@
         <dependency>
             <groupId>plus.gaga.middleware</groupId>
             <artifactId>openai-code-review-sdk</artifactId>
-            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>junit</groupId>

@@ -29,6 +29,11 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
+                <groupId>plus.gaga.middleware</groupId>
+                <artifactId>openai-code-review-sdk</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
                 <groupId>com.google.guava</groupId>
                 <artifactId>guava</artifactId>
                 <version>32.1.3-jre</version>
