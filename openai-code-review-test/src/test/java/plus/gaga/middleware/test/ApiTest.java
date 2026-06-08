@@ -13,13 +13,13 @@ public class ApiTest {
 
     @Test(expected = NumberFormatException.class)
     public void testInvalidNumber1() {
-        log.info("测试非法数字: aaaa1");
-        Integer.parseInt("aaaa1");
+        log.info("测试非法数字: 8888");
+        Integer.parseInt("bbbb");
     }
 
     @Test(expected = NumberFormatException.class)
     public void testInvalidNumber2() {
-        log.info("测试非法数字: aaaa2");
+        log.info("测试非法数字: 9999");
         Integer.parseInt("aaaa2");
     }
 
