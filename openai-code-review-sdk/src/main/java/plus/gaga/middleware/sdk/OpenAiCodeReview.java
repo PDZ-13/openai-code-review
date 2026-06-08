@@ -15,7 +15,7 @@ public class OpenAiCodeReview {
         processBuilder.directory(new File("."));
         //开始执行git操作
         Process process = processBuilder.start();
-
+//哈哈哈
         BufferedReader reader;
         reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
         String line;
