@@ -15,7 +15,7 @@ public class OpenAiCodeReview {
         processBuilder.directory(new File("."));
         //开始执行git操作
         Process process = processBuilder.start();
-//哈哈哈
+         //我是大哥
         BufferedReader reader;
         reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
         String line;
@@ -24,7 +24,7 @@ public class OpenAiCodeReview {
         while ((line = reader.readLine()) != null) {
             diffCode.append(line);
         }
-        //哈哈哈哈哈
+        //天天开心
         int exitCode = process.waitFor();
         System.out.println("Exited with code:" + exitCode);
 
